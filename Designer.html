@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer</title>
+    <style>
+body {
+    color: #fff;
+}
+header {
+    display: flex;
+    background-color: black;
+    color: #fff;
+}
+h1 {
+    font-size: 4em;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 30%;
+    margin-bottom: 1px;
+    color: dimgrey;
+}
+h3 {
+    font-size: 3em;
+    text-align: left;  
+    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+p {
+    font-size: 1em;
+    margin-left: 30px;
+    margin-bottom: 30px;   
+}
+.button {
+    margin-left: 30%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+.web {
+    margin-top: 50px;
+    text-align: left;
+    color: darkgrey;
+}
+img  {
+    height: 600px;
+    width: 700px;
+   margin-left: 150px;
+   margin-top: 20px;
+   
+}
+.container {
+    color: whitesmoke;
+    
+}
+h2 {
+    font-size: 6em;
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 10%;
+    margin-bottom: 0;
+    color: black; 
+}
+#paragraph1 {
+    font-size: 3.5em;
+    font-style: italic;
+    text-align: left;
+    margin-left: 70px;
+    margin-right: 35%;
+    margin-bottom: 10%;
+    color: black;
+}
+.container1 {
+    display: flex;
+    margin-bottom: 10%;
+    align-items: center;
+    
+
+}
+#hadink1 {
+    font-size: 2.5em;
+    text-align: left;  
+    margin-left: 25px;
+    margin-top: 10px;
+    color: black;
+}
+#paragraph2 {
+    font-size: 1.5em;
+    font-style: oblique;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 3%;
+    color: black;
+}
+.web1 {
+    margin-top: 50px;
+    text-align: left;
+    color: black;
+}
+#hadink2 {
+    font-size: 2.5em;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 15%;
+    color: black;
+}
+#paragraph3 {
+    font-size: 1.5em;
+    font-style: oblique;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 3%;
+    color: black;
+}
+.web2 {
+    margin-top: 50px;
+    text-align: left;
+    color: black;
+}
+#hadink3 {
+    font-size: 2.5em;
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 15%;
+    color: black;
+}
+#paragraph4 {
+    font-size: 1.5em;
+    font-style: oblique;
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 3%;
+    color: black;
+}
+.web3 {
+    margin-top: 50px;
+    text-align: left;
+    color: black;
+}
+video {
+    height: 200%;
+    width: 60%;
+   margin-left: 150px;
+   margin-top: 30px;
+   position: sticky;
+}
+#box {
+  background-color: white;
+  width: 300%;
+  height: 500px;
+  border: none;
+  overflow-y: scroll;
+  cursor: all-scroll; 
+}
+#box::-webkit-scrollbar {
+    display: none;
+}
+.container2 {
+    background-color: white;
+    display: flex;
+    
+}
+#paragraph5 {
+    font-size: 3.5em;
+    font-style: italic;
+    text-align: left;
+    margin-left: 70px;
+    margin-right: 35%; 
+    color: black;
+}
+#v {
+    height: 78%;
+    width: 100%;
+   
+   margin-top: 10%;
+   
+}
+#w4 {
+    font-size: 2.5em;
+    text-align: left;
+    margin-left: 6%;
+    margin-top: 15%;
+    color: black;
+}
+#paragraph6 {
+    font-size: 1.5em;
+    font-style: oblique;
+    text-align: left;
+    margin-left: 7%;
+    margin-right: 17%;
+    color: black;
+}
+.web4 {
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 13%;
+    color: black;
+}
+#w5 {
+    font-size: 2.5em;
+    text-align: left;
+    margin-left: 6%;
+    margin-top: 5%;
+    color: black;
+}
+#paragraph7 {
+    font-size: 1.5em;
+    font-style: oblique;
+    text-align: left;
+    margin-left: 7%;
+    margin-right: 17%;
+    color: black;
+}
+.web5 {
+    font-size: 1.5em;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 7%;
+    color: black;
+}
+#w6 {
+    font-size: 2.5em;
+    text-align: left;
+    margin-left: 6%;
+    margin-top: 5%;
+    color: black;
+}
+#paragraph8 {
+    font-size: 1.5em;
+    font-style: oblique;
+    text-align: left;
+    margin-left: 7%;
+    margin-right: 17%;
+    color: black;
+}
+.web6 {
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 13%;
+    color: black;
+}
+#box1 {
+  background-color: white;
+  width: 110%;
+  height: 500px;
+  border: none;
+  overflow-y: scroll;
+  cursor: all-scroll; 
+}
+#box1::-webkit-scrollbar {
+    display: none;
+}
+#image{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 5%;
+    background: white;
+}
+#pimg {
+    margin-top: 7%;
+    color: black;
+}
+.image {
+    display: flex;
+}
+
+        /* FOOTER..*/
+        footer{
+           height: 400px;
+           width: 100%;
+           background-color: black;
+           color: white;
+           display: flex;
+           column-gap: 90px;
+           margin-top: 110px;
+           padding-top: 10px;
+           text-align: center;
+        }
+        .bb{
+            display: flex;
+            column-gap: 40px;
+            padding: 10px 100px;
+           
+            
+        }
+        .bb h4{
+            font-size: 20px;
+            text-align: center;
+            margin-right: 10%;
+        }
+        .a{
+            font-size: 12px;
+            margin-left: 3px;
+        }
+        .a button{
+            color: white;
+            background-color: blue;
+            padding: 10px 10px;
+            margin-left: 30px;
+        }
+        .a button:hover{
+            background-color: rgb(58, 58, 146);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Designer</h1>
+            <h3>Experience the power of code.writing it.</h3>
+            <p>Take control of HTML5, CSS3, and JavaScript in a completely visual canvas — and let Webflow translate your design into clean, semantic code that's ready to publish to the web, or hand off to developers.</p>
+            <a href="#" class="button">Get started — it's free</a>
+            <p class="web">LEARN MORE ABOUT THE DESIGNER</p>
+        </div>
+        <div >
+            <img src="designer1.jpg" width="300" height="100" style="float:right">
+        </div>
+    </header>
+    <div class="container">
+        <h2>Structure</h2>
+        <p id="paragraph1">Fill a blank canvas with everything HTML5 has to offer</p>
+    
+    </div>
+    <div class="container1">  
+        <div id="box">
+            <h3 id="hadink1">Build with raw ingredients</h3>
+            <p id="paragraph2">Drag in unstyled HTML elements for complete control, use the Quick Stack element to build and modify common website structures quickly, or utilize pre-built complex elements like sliders, tabs, background videos, and more.</p>
+            <p class="web1">Add Elements panel</p>
+        
+            <h3 id="hadink2">Create reusable components</h3>
+            <p id="paragraph3">Turn nav bars, footers, signup forms, and more into components that you can reuse, maintain, create variations of, or modify on-the-fly across your whole website with as little as one click.</p>
+            <p class="web2">Creating components</p>
+        
+            <h3 id="hadink3">Keep your elements organized</h3>
+            <p id="paragraph4">View and reorganize your pages' element structure in the Navigator — and ensure your pages remain accessible to all</p>
+            <p class="web3">Managing element structure</p>
+        </div>
+        <video src="video.mp4"  width="500" height="700"  style="float:right"></video>
+    </div>
+    <hr>
+    <h2>Style</h2>
+        <p id="paragraph5">Build flexbox and grid layouts, then style every element to perfection</p> 
+    <div class="container2">
+    <div>
+        <video id="v" src="video.mp4"  width="500" height="700"  style="float:right"></video> 
+    </div>
+        <div id="box1">
+            <h3 id="w4">Design responsively</h3>
+            <p id="paragraph6">Easily preview and adjust layouts for the wide array of modern devices.</p>
+            <p class="web4">Responsive design in webflow</p>
+            <div class="image">
+                <img id="image" src="eswar.jpg">
+                <p id="pimg">Paul Irish </br>Chrome Dev Tools, Google</p>
+            </div>
+        
+            <h3 id="w5">Create reusable classes</h3>
+            <p id="paragraph7">Work with a CSS-based class system to make style changes across multiple elements at the same time.</p>
+            <p class="web5">“Webflow is crazy good. I feel like you guys are the first to build the right UX around styling and CSS.”</p>
+        
+            <h3 id="w6">Build layouts your way</h3>
+            <p id="paragraph8">From flexbox and CSS grid to inline block to absolute positioning, you have complete control over layout.</p>
+            <p class="web6">CSS Grid in webflow</p>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <footer>
+        <div class="a">
+            <h1>Get started for free</h1>
+            <p>Try Webflow for as long as you like with our free Starter <br>plan. Purchase
+                 a paid Site plan to publish, host, and <br>unlock additional features.</p><br>
+            <button>Get started — it's free</button>     
+        </div>
+        <div class="b">
+            <h4>TRANSFORMING THE DESIGN PROCESS AT</h4><br><br>
+            <div class="bb">
+                <div class="b1">
+                    <h4>PHILIPS</h4><br>
+                    <h4>MONDAY</h4><br>
+                    <h4>DROPBOX</h4><br>
+                </div>
+                <div class="b2">
+                    <h4>UPWORK</h4><br>
+                    <h4>DISCORD</h4><br>
+                    <h4>MURAL</h4><br>
+                </div>
+                <div class="b3">
+                    <h4>RAKUTEN</h4><br>
+                    <h4>GREEN HOUSE</h4><br>
+                    <h4>ORANGETHVORY</h4><br>
+                </div>
+                <div class="b4">
+                    <h4>DELL</h4><br>
+                    <h4>TED</h4><br>
+                    <h4>PWC</h4><br>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
